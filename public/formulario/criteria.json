@@ -1,0 +1,462 @@
+{
+  "camara": [
+    {
+      "code": "1.1",
+      "title": "Regulamentação da Lei de Acesso à Informação",
+      "weight": 2,
+      "description": "A Câmara já teve iniciativa ou já aprovou norma de regulamentação da Lei n° 12.257, a Lei de Acesso à Informação (LAI) em âmbito municipal?"
+    },
+    {
+      "code": "1.2",
+      "title": "Conflitos de Interesse Internos",
+      "weight": 1,
+      "description": "Possui regulamentação interna de conflitos de interesses?"
+    },
+    {
+      "code": "1.3",
+      "title": "Canal de Ouvidoria com Acesso Fácil",
+      "weight": 2,
+      "description": "Possui canal de ouvidoria para a realização de denúncias, inclusive anônimas, com fácil acesso (até dois cliques) a partir do perfil oficial no site da Câmara de vereadores?"
+    },
+    {
+      "code": "1.4",
+      "title": "Serviço Eletrônico de Acesso à Informação",
+      "weight": 1,
+      "description": "Possui serviço eletrônico de pedidos de acesso à informação que (i) permita acompanhar a tramitação do pedido, (ii) permita protocolar recursos, (iii) forneça número de protocolo e (iv) permita o tratamento sigiloso dos dados de pedidos de acesso à informação."
+    },
+    {
+      "code": "1.5",
+      "title": "Ferramentas de Acessibilidade no Portal",
+      "weight": 1,
+      "description": "Disponibiliza, no portal oficial da câmara de vereadores, ferramentas de acessibilidade, como símbolo de acessibilidade em destaque, subtitulação por meio de legenda oculta, janela com intérprete da Libras e audiodescrição, em conformidade com as normas de acesso para pessoas com deficiência estabelecidas pelo Estatuto da Pessoa com Deficiência (Lei n° 13.146/2015)?"
+    },
+    {
+      "code": "1.6",
+      "title": "Publicação de Salários e Verbas Indenizatórias",
+      "weight": 2,
+      "description": "Publica mensalmente, no Portal de Dados Abertos da Câmara de vereadores ou no Portal da Transparência, bases de dados com os salários nominais, incluindo i) verbas indenizatórias nominais (diárias, auxílios, viagens e outros valores que não compõem o salário) de servidores contradados por seleção pública e/ou comissionados, com: (ii) acesso gratuito às bases e publicado com licença aberta (formatos como .csv, .odt e .txt); (iii) dados legíveis por máquina (formatos como .csv, .json, .xml); (iv) possibilidade de download dos dados; (v) série histórica"
+    },
+    {
+      "code": "1.7",
+      "title": "Benefícios Custados por Terceiros",
+      "weight": 1,
+      "description": "Publica anualmente, no Portal de Dados Abertos ou no Portal da Transparência, bases de dados sobre vantagens e benefícios recebidos por servidores do gabinete e do próprio vereador e custeados por terceiros (por exemplo, viagens e diárias pagas por entidades de direito privado), com: (i) acesso gratuito às bases e publicado com licença aberta (formatos como .csv, .odt e .txt); (ii) dados legíveis por máquina (formatos como .csv, .json, .xml); (iii) possibilidade de download dos dados; (iv) série histórica"
+    },
+    {
+      "code": "1.8",
+      "title": "Execução Orçamentária Detalhada",
+      "weight": 1,
+      "description": "Divulga, em relação à execução orçamentária, os lançamentos de receitas totais (i) e despesas detalhadas (ii) da unidade gestora (iii) e de cada gabinete legislativo (iv); custo do legislativo local como proporção das receitas da cidade (v)"
+    },
+    {
+      "code": "1.9",
+      "title": "Bases de dados sobre licitações",
+      "weight": 1,
+      "description": "Publica mensalmente, no Portal de Dados Abertos ou no Portal da Transparência da Câmara, bases de dados sobre licitações, contendo: (i) número da licitação, (ii) modalidade, (iii) situação, (iv) valor, (v) tipo, (vi) objeto, (vii) edital, (viii) empresas participantes, (ix) empresa selecionada (nome e CNPJ), (x) total proposto, (xi) total homologado."
+    },
+    {
+      "code": "1.10",
+      "title": "Fiscalização de contratos públicos",
+      "weight": 1,
+      "description": "Publica semestralmente, no portal da transparência da câmara municipal, relatórios sobre fiscalização de contratos públicos, inclusive aditivos (i), do poder executivo municipal, com possibilidade de download dos dados (ii) e série histórica (iii)"
+    },
+    {
+      "code": "1.11",
+      "title": "Contratos públicos e aditivos",
+      "weight": 1,
+      "description": "Divulga, em relação aos contratos públicos e aditivos, as seguintes informações: (i) número do processo, (ii) objeto, (iii) tipo de contratação, (iv) nome, (v) CPF/CNPJ, (vi) vigência, (vii) valor total, (viii) valores parciais, (ix) íntegra dos documentos."
+    },
+    {
+      "code": "1.12",
+      "title": "Patrimônio Público",
+      "weight": 1,
+      "description": "Publica anualmente, no portal de transparência da Câmara Municipal, informações sobre patrimônio público (bens imóveis) com: (i) acesso gratuito às bases e publicado com licença aberta (formatos como .csv, .odt e .txt); (ii) dados legíveis por máquina (formatos como .csv, .json, .xml); (iii) possibilidade de download dos dados; (iv) série histórica"
+    },
+    {
+      "code": "1.13",
+      "title": "Base de dados sobre emendas parlamentares",
+      "weight": 1,
+      "description": "Publica anualmente, em área específica no Portal de Dados Abertos ou no Portal da Transparência, bases de dados sobre emendas parlamentares concedidas pelo Legislativo Municipal, com: (i) acesso gratuito às bases e publicado com licença aberta (formatos como .csv, .odt e .txt); (ii) dados legíveis por máquina (formatos como .csv, .json, .xml); (iii) possibilidade de download dos dados; (iv) série histórica"
+    },
+    {
+      "code": "1.14",
+      "title": "Unidade de controle interno",
+      "weight": 2,
+      "description": "Possui unidade de controle interno? O órgão de controle interno: (i) possui cargo de servidor efetivo provido, (ii) realiza acompanhamento de evolução patrimonial de agentes públicos; (iii) é regulamentado por lei; (iv) possui planejamento estratégico."
+    },
+    {
+      "code": "1.15",
+      "title": "Código de ética",
+      "weight": 1,
+      "description": "Possui código de ética e conduta para orientar as práticas dos vereadores, de servidores e terceirizados?"
+    },
+    {
+      "code": "1.16",
+      "title": "Agenda de trabalhos realizados",
+      "weight": 1,
+      "description": "Divulga com antecedência de 15 dias, da agenda dos trabalhos realizados pelas comissões do poder legislativo municipal, em portal próprio, de fácil acesso e nas redes sociais"
+    },
+    {
+      "code": "1.17",
+      "title": "Agenda do plenário do poder legislativo",
+      "weight": 1,
+      "description": "Divulga com antecedência de 48 horas, a agenda do plenário do poder legislativo municipal, em portal próprio, de fácil acesso e nas redes sociais"
+    },
+    {
+      "code": "1.18",
+      "title": "Disponibiliza gráficos comparativos",
+      "weight": 1,
+      "description": "Disponibiliza gráficos comparativos entre PL tramitados em regime de urgência X regime normal"
+    },
+    {
+      "code": "1.19",
+      "title": "Análises de constitucionalidade",
+      "weight": 1,
+      "description": "Divulga pareceres de análises de constitucionalidade da CCJ semestralmente?"
+    },
+    {
+      "code": "1.20",
+      "title": "Sistemas de votação eletrônica",
+      "weight": 1,
+      "description": "Possui: sistemas de votação eletrônica (i); sistema de gestão de documentos digitais (ii);"
+    },
+    {
+      "code": "1.21",
+      "title": "Sistema de separação de resíduos sólidos recicláveis",
+      "weight": 1,
+      "description": "A casa legislativa disponibiliza: sistemas de separação de resíduos sólidos recicláveis e não recicláveis (i); ações voltadas à não geração, redução e reutilização de resíduos gerados (ii); ações educativas em torno da separação dos resíduos sólidos recicláveis e não recicláveis (iii); materiais recicláveis preferencialmente às associações/cooperativas de catadores e catadoras (iv); ações educativas em torno de boas práticas ambientais (v)"
+    },
+    {
+      "code": "1.22",
+      "title": "Materiais recicláveis",
+      "weight": 1,
+      "description": "Os materiais recicláveis são disponibilizados preferencialmente às associações/cooperativas de catadores e catadoras?"
+    },
+    {
+      "code": "1.23",
+      "title": "A Câmara possui controle de servidores comissionados",
+      "weight": 2,
+      "description": "A Câmara possui controle servidores comissionados (sem vínculo por concurso público) que contenha: grau de parentesco dos cargos comissionados com seus membros (i), o número de servidores contratados (ii), acúmulo de funções (iii)"
+    },
+    {
+      "code": "1.24",
+      "title": "Casa Legislativa",
+      "weight": 1,
+      "description": "A casa legislativa conta com: i) Sistemas de redução de vazão de água para pias e vasos sanitários? ii) Sistemas de captação e reaproveitamento de águas de chuvas?; iii) Programas de eficiência energética; iv) Arborização própria na área do entorno da construção; v) rede de drenagem de águas pluviais; acesso à água potável"
+    },
+    {
+      "code": "1.25",
+      "title": "Qualidade no ambiente de trabalho",
+      "weight": 1,
+      "description": "Existem ações ou programas de fomento e implantação de qualidade no ambiente do trabalho?"
+    },
+    {
+      "code": "1.26",
+      "title": "Diagnóstico de combate a práticas inapropriadas",
+      "weight": 2,
+      "description": "Existem ações ou programas de diagnóstico e combate a práticas inapropriadas no âmbito do ambiente do trabalho: (i) assédio moral, (ii) adoecimentos mentais, (iii) assédio eleitoral e (iv) assédio sexual?"
+    },
+    {
+      "code": "1.27",
+      "title": "Relatórios estatísticos de consultas públicas",
+      "weight": 1,
+      "description": "Realiza consultas públicas e publica relatórios estatísticos de consultas públicas, com periodicidade trimestral? "
+    },
+    {
+      "code": "2.1",
+      "title": "Recebimento de Sugestões Legislativas",
+      "weight": 2,
+      "description": "Possui canal para receber sugestões sobre projetos de lei, ou outras demandas de interesse legislativo em sentido estrito (não estão incluídas as demandas por serviços públicos específicos em bairros) de cidadãos, associações ou movimentos sociais? (i) o canal é acessível pelo portal ou página com 2 cliques; (ii) as sugestões recebem tratamento e são compartilhadas a todos os vereadores; (iii) as sugestões são respondidas aos postulantes informando a tramitação e conclusão; (iv) o acolhimento ou não de sugestões recebe algum tipo de fundamentação jurídica ou política."
+    },
+    {
+      "code": "2.2",
+      "title": "Visualização dos Dados Legislativos",
+      "weight": 1,
+      "description": "Promove visualizações dos dados (painéis, dashboards, gráficos, infográficos) que facilitem o entendimento dos cidadãos: i) no portal de transparência; ii) dados relativos a projetos de leis, iii) atuação relativa à fiscalização do poder executivo"
+    },
+    {
+      "code": "2.3",
+      "title": "Debates com Atores Afetados",
+      "weight": 1,
+      "description": "Realiza encontros, debates ou oficinas ou qualquer metodologia dialógica com os atores afetados pelos projetos de leis municipais (comunidades, ONGS, entidades empresariais ou de trabalhadores etc.), envolvendo todos os vereadores"
+    },
+    {
+      "code": "2.4",
+      "title": "Debates com Conselhos sobre Orçamento",
+      "weight": 1,
+      "description": "Realiza debates com os conselhos de políticas públicas como etapa prévia para a aprovação dos instrumentos orçamentários (plano plurianual, lei orçamentária etc.)?"
+    },
+    {
+      "code": "2.5",
+      "title": "Audiências públicas",
+      "weight": 1,
+      "description": "Realiza e disponibiliza informações sobre as audiências públicas realizadas no último ano, com (i) divulgação antecipada do calendário, (ii) transmissão online, (iii) possibilidade de participação remota e (iv) publicação dos resultados"
+    },
+    {
+      "code": "2.6",
+      "title": "Plano de Cargos e Salários",
+      "weight": 1,
+      "description": "Divulga Plano de cargos e salários com: (i) especificação da função e da atuação de cada cargo/função; (ii) organograma e funções definidas; (iii) carga horária e regime de trabalho; (iv) equivalência salarial de gênero/raça para funções semelhantes?; (v) planejamento de capacitação profissional para exercício da função; vi) controle de ponto?; (vii) salários e outras vantagens?"
+    },
+    {
+      "code": "2.7",
+      "title": "Transparência nas Atividades Legislativas",
+      "weight": 2,
+      "description": "Possui: (i); plataformas de colaboração online com as atividades legislativas (ii); transmissão ao vivo das sessões plenárias (iii); transmissão ao vivo das reuniões das comissões (iv); disponibiliza arquivo para posterior consulta pública das transmissões ao vivo (v)"
+    },
+    {
+      "code": "2.8",
+      "title": "Comissões Parlamentares de Inquérito",
+      "weight": 2,
+      "description": "Realiza a instauração de CPI a partir de notícias da ocorrência de fatos graves? As conclusões das CPIs resultam em relatórios que são encaminhados às autoridades competentes (Ministério Público, Polícias Civis ou Federal etc.)? "
+    },
+    {
+      "code": "3.1",
+      "title": "Diálogo com Tribunal de Contas",
+      "weight": 2,
+      "description": "Realiza interação prévia com o Tribunal de Contas do Estado do ES para discutir as conclusões alcançadas nas prestações de contas do Poder Executivo Municipal?"
+    },
+    {
+      "code": "3.2",
+      "title": "Análise de Conformidade Orçamentária",
+      "weight": 2,
+      "description": "Publica relatórios de análise de conformidade dos instrumentos orçamentários com os planos de ação aprovados pelos conselhos de políticas públicas e dos ajustes praticados (quando aplicável) para adequação em caso de desconformidade?"
+    },
+    {
+      "code": "3.3",
+      "title": "Monitoramento de Políticas Públicas",
+      "weight": 2,
+      "description": "Realiza monitoramento de políticas públicas do poder público municipal em relação a resultados e metas? Em caso positivo: (i) há acompanhamento no monitoramento em relação a investimentos (recursos humanos e financeiros investidos); (ii) há acompanhamento no monitoramento em relação a ações realizadas (atividades realizadas na consecução da política: o que foi feito); (iii) há acompanhamento de resultados alcançados (resultados efetivos sobre diretitos); (iv) o monitoramento é baseado em metas?"
+    },
+    {
+      "code": "3.4",
+      "title": "Capacidade Técnica das Comissões Permanentes",
+      "weight": 2,
+      "description": "As comissões permanentes do Legislativo Municipal: (i) apresentam estudos técnicos ou jurídicos que embasam seus pareceres; (i) tomam a iniciativa de elaborar proposições relativas a suas áreas de especialização; (iii) possuem em seus quadros servidor efetivo com qualificação adequada à sua respectiva especialização? (iv) realizam consultas a especialistas externos sobre o tema em debate?"
+    },
+    {
+      "code": "3.5",
+      "title": "Pesquisa sobre Problemas Municipais",
+      "weight": 1,
+      "description": "Realizou e divulgou relatório de, nos últimos 12 meses, pesquisa sobre os problemas do município (diretamente ou mediante parcerias com instituições de ensino ou afins)?"
+    },
+    {
+      "code": "3.6",
+      "title": "Capacitação Contínua",
+      "weight": 1,
+      "description": "Oferece programa de treinamento contínuo para legisladores e funcionários do legislativo, focando em práticas de governo aberto, integridade e transparência?"
+    },
+    {
+      "code": "3.7",
+      "title": "Avaliação de Desempenho dos Servidores",
+      "weight": 1,
+      "description": "A casa legislativa implementa avaliações de desempenho estruturadas para servidores?"
+    },
+    {
+      "code": "3.8",
+      "title": "Transparência sobre Comissões da Câmara",
+      "weight": 1,
+      "description": "Existe publicação no sítio da casa legislativa da relação de todas as comissões instituídas no âmbito da Câmara Municipal com informações sobre: (i) lista dos seus integrantes (ii) objetivos da comissão, (iii) relatório de atividades ou atas de deliberação e (iv) forma de remuneração dos participantes (geton, gratificação de função ou outra)?"
+    },
+    {
+      "code": "3.9",
+      "title": "Parcerias para Governo Digital",
+      "weight": 1,
+      "description": "A casa legislativa tem parceria com instituições públicas (ex.: Prodest) para apoio à Transformação Digital/desenvolvimento do Governo Digital?"
+    }
+  ],
+  "gabinete": [
+    {
+      "code": "1.1",
+      "title": "Site externo do parlamentar",
+      "weight": 1,
+      "description": "Disponibiliza no perfil oficial da Câmara de vereadores um site oficial externo do parlamentar com link de fácil acesso ao cidadão (até dois cliques)?"
+    },
+    {
+      "code": "1.2",
+      "title": "Disponibiliza canal para recebimento",
+      "weight": 2,
+      "description": "Disponibiliza canal para a recebimento e tratamento de denúncias por cidadãos que sejam dirigidas diretamente ao gabinete?"
+    },
+    {
+      "code": "1.3",
+      "title": "Gabinete divulgação estrutura",
+      "weight": 1,
+      "description": "O gabinete divulga informações sobre sua estrutura, como (i) organograma, (ii) cargos e (iii) funções com os nomes dos ocupantes?"
+    },
+    {
+      "code": "1.4",
+      "title": "Reuniões internas do vereador",
+      "weight": 1,
+      "description": "Possui registro: (i) dos atendimentos e reuniões internas do vereador realizadas no âmbito do gabinete, com periodicidade semanal? (ii) De reunião com grupos ou pessoas que possam ser impactadas com projetos legislativos?"
+    },
+    {
+      "code": "1.5",
+      "title": "Combate à corrupção",
+      "weight": 1,
+      "description": "Possui alocado no gabinete, servidor com atribuições de transparência, controle interno, auditoria, correição, ouvidoria, prevenção e combate à corrupção?"
+    },
+    {
+      "code": "1.6",
+      "title": "Repasses de emendas parlamentares",
+      "weight": 2,
+      "description": "Publica em algum meio de fácil acesso, em relação aos repasses de emendas parlamentares, as seguintes informações: (i) valor, (ii) órgão de destino, (iii) data de liberação, (iv) beneficiário, (v) critério para eficiência alocativa das emendas parlamentares de sua indicação (estudos técnicos, alocação conforme as prioridades definidas pelas secretarias municipais, avaliação de cenários de urgência)"
+    },
+    {
+      "code": "1.7",
+      "title": "Organograma e funções definidas",
+      "weight": 2,
+      "description": "Divulga: (i) O currículo de seus assessores? (ii) Organograma e funções definidas; (iii) Carga horária; (iv) regime de trabalho (interno ou externo); (v) Equivalência salarial de gênero/raça para funções semelhantes?; (vi) Planejamento de capacitação profissional para exercício da função; (vi) controle de ponto dos assessores internos?; (vii) Relatório de atividades dos assessores externos?; (vii) 11) Salários e outras vantagens?; (ix) gestão de competências; (x) divisão de tarefas entre os assessores"
+    },
+    {
+      "code": "1.8",
+      "title": "Publica relatório",
+      "weight": 1,
+      "description": "Publica relatório de indicações baseadas em estudos técnicos anualmente?"
+    },
+    {
+      "code": "1.9",
+      "title": "Reuniões das comissões",
+      "weight": 2,
+      "description": "O vereador comparece regularmente às reuniões das comissões das quais participa?"
+    },
+    {
+      "code": "1.10",
+      "title": "Projeto de lei",
+      "weight": 2,
+      "description": "Apresentou, nos últimos 12 meses, projeto de lei sobre algum dos seguintes temas: (i) saúde; (ii) educação; (iii) instrumentos de planejamento urbano; (iv) segurança pública; (v) governança pública; (vi) Integridade/transparência/combate à corrupção; (vii) acessibilidade;"
+    },
+    {
+      "code": "1.11",
+      "title": "Projeto de responsabilidade social ou inclusão",
+      "weight": 1,
+      "description": "Realiza algum projeto de responsabilidade social ou inclusão, como a parceria com trabalho de reeducandos do sistema prisional e menores em conflito com a lei em cumprimento de medidas abertas, contratação de pessoas com deficiência, políticas afirmativas de gênero e combate ao racismo, cotas, mérito, etc.? "
+    },
+    {
+      "code": "2.1",
+      "title": "Contato de e-mail e telefônico de fácil acesso",
+      "weight": 1,
+      "description": "Possui contato de e-mail e telefônico de fácil acesso (até dois cliques) a partir do perfil oficial na Câmara de vereadores?"
+    },
+    {
+      "code": "2.2",
+      "title": "Link para as redes sociais",
+      "weight": 1,
+      "description": "Possui link para redes sociais do parlamentar a partir do perfil oficial na Câmara Municipal?"
+    },
+    {
+      "code": "2.3",
+      "title": "Relatórios estatísticos",
+      "weight": 1,
+      "description": "Publica relatórios estatísticos de consultas públicas, com periodicidade trimestral?"
+    },
+    {
+      "code": "2.4",
+      "title": "Projetos de lei",
+      "weight": 2,
+      "description": "Apresentou projetos de leis que toquem temas como: (i) saneamento básico; (ii) proteção e defesa civil; (iii) agricultura Agroecológica e Orgânica; (iv) defesa animal; (v) qualidade e segurança da água;(vi) Combate à poluição e proteção do meio ambiente;"
+    },
+    {
+      "code": "2.5",
+      "title": "Redes sociais",
+      "weight": 1,
+      "description": "Possui, pelo menos, duas redes sociais ativas, com 5 postagens feitas no último mês relativas ao mandato?"
+    },
+    {
+      "code": "2.6",
+      "title": "Perfil oficial",
+      "weight": 1,
+      "description": "Possui uma área destinada a notícias/informações em seu perfil oficial para difundir atualizações pertinentes aos cidadãos, com ao menos dez postagens no último trimestre?"
+    },
+    {
+      "code": "2.7",
+      "title": "Oportunidades de participação da população",
+      "weight": 1,
+      "description": "Oferece oportunidades de participação da população na discussão do orçamento, com periodicidade anual?"
+    },
+    {
+      "code": "2.8",
+      "title": "Informações sobre consultas públicas",
+      "weight": 1,
+      "description": "Realizou e disponibilizou informações sobre as consultas públicas ocorridas no último ano, com (i) divulgação do material relevante, (ii) possibilidade de participação remota e (iii) publicação dos resultados"
+    },
+    {
+      "code": "2.9",
+      "title": "Reuniões com movimentos sociais",
+      "weight": 1,
+      "description": "Desenvolveu reuniões, encontros, oficinas ou outras metodologias dialógicas aproximadas com movimentos sociais, associações ou comunidades? (i) com frequência no mínimo mensal; (ii) com frequência bimestral; (iii) com frequência semestral; (iv) anualmente."
+    },
+    {
+      "code": "2.10",
+      "title": "Audiências públicas",
+      "weight": 1,
+      "description": "Realizou audiências públicas no último ano, com (i) divulgação antecipada do calendário, (ii) transmissão online, (iii) possibilidade de participação remota e (iv) publicação dos resultados"
+    },
+    {
+      "code": "2.11",
+      "title": "Relatórios de acompanhamento",
+      "weight": 1,
+      "description": "Divulga relatórios de acompanhamento de soluções de problemas relatados pela população em indicações com periodicidade anual?"
+    },
+    {
+      "code": "2.12",
+      "title": "Atuação parlamentar",
+      "weight": 1,
+      "description": "Possui histórico trimestral de atuação parlamentar a partir do perfil oficial da Câmara, atualizado que possuam: i) proposições legislativas; ii) participação em comissões; iii) histórico de votações"
+    },
+    {
+      "code": "2.13",
+      "title": "Cargos comissionados",
+      "weight": 1,
+      "description": "Possui quantos servidores em cargos comissionados no gabinete: i) 0 a 5; ii) 6 a 10; iii) 11 a 15; iv) 16 a 20"
+    },
+    {
+      "code": "2.14",
+      "title": "Gabinete",
+      "weight": 2,
+      "description": "Contrata servidores para o gabinete através de processo seletivo público de ampla concorrência (i)? Implementa avaliações de desempenho recorrente dos seus membros (ii)? Os membros com melhor desempenho recebem algum tipo de premiação (iii)? O Gabinete realiza programa de capacitação de seus membros (iv)?"
+    },
+    {
+      "code": "2.15",
+      "title": "Profissionais com formação específica",
+      "weight": 1,
+      "description": "O gabinete conta com profissionais com formação específica (superior ou pós- graduação) nas seguintes áreas: (i) direito, (ii) contabilidade ou economia, (iii) meio ambiente, saúde coletiva, educação ou segurança pública."
+    },
+    {
+      "code": "2.16",
+      "title": "Gabinete elabora e publica justificação",
+      "weight": 1,
+      "description": "O gabinete elabora e publica justificação (fundamentação) sobre todos os votos que exara em projetos de lei e os publiciza? (i) ao menos 25% dos projetos de lei; (ii) ao menos 50% dos projetos de lei; (iii) ao menos 75% dos projetos de lei; (iv) 100% dos projetos de lei."
+    },
+    {
+      "code": "2.17",
+      "title": "Projetos de lei",
+      "weight": 2,
+      "description": "Em relação à aprovação de projetos de lei cujo conteúdo seja relativo à definição ou execução de políticas públicas: (i) Publica relatórios ou levantamentos para diagnóstico do problema, seu tamanho e gravidade? (ii) realiza levantamento sobre as possíveis soluções do problema e apresenta os dados contendo as vantagens e desvantagens de cada solução?"
+    },
+    {
+      "code": "2.18",
+      "title": "Registro de suas propostas",
+      "weight": 2,
+      "description": "O vereador possui registro de suas propostas de campanha e as transforma em um plano de ação parlamentar? Em caso positivo: (i) desenvolve planejamento específico nessa agenda com plano de ação detalhado? (ii) realiza monitoramento da política pública referente a agenda prioritária? (iii) presta contas das ações e propostas desenvolvidas em relação às agendas prioritárias?"
+    },
+    {
+      "code": "2.19",
+      "title": "Planejamento anual",
+      "weight": 1,
+      "description": "Realiza e publica o planejamento anual de fiscalização dos atos do Poder Executivo municipal?"
+    },
+    {
+      "code": "2.20",
+      "title": "Gabinete publica pareceres",
+      "weight": 2,
+      "description": "Gabinete publica pareceres e/ou relatórios de fiscalização do Poder Executivo com periodicidade ao menos anual?"
+    },
+    {
+      "code": "2.21",
+      "title": "Relatórios sobre o gabinete",
+      "weight": 1,
+      "description": "Divulga anualmente informações sobre relatórios próprios do gabinete referentes à prestação de contas do chefe do poder executivo?"
+    }
+  ]
+}

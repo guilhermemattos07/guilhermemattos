@@ -1,0 +1,390 @@
+{
+  "gabinete": {
+    "projeto_gabinete_1": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "projeto_gabinete_2": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "projeto_gabinete_3": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "positivos": {
+      "type": "text"
+    },
+    "regras_gabinete_1": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "regras_gabinete_2": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "ajustes": {
+      "options": [
+        "Sim",
+        "Não tenho ajustes a sugerir",
+        "Não tenho elementos para avaliar"
+      ]
+    },
+    "desafios": {
+      "type": "multiple",
+      "options": [
+        "Entender os critérios de avaliação",
+        "Reunir as informações solicitadas",
+        "Cumprir os prazos",
+        "Esclarecer dúvidas com a organização",
+        "Entender os resultados recebidos",
+        "Outro desafio",
+        "Não enfrentei dificuldades",
+        "Não sei avaliar"
+      ],
+      "max": 2,
+      "exclusive": [
+        "Não enfrentei dificuldades",
+        "Não sei avaliar"
+      ]
+    },
+    "desafio_detalhe": {
+      "type": "text"
+    },
+    "nps": {
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "Não sei avaliar"
+      ]
+    },
+    "prioridade": {
+      "type": "text"
+    }
+  },
+  "camara": {
+    "projeto_camara_1": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "projeto_camara_2": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "projeto_camara_3": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "positivos": {
+      "type": "text"
+    },
+    "regras_camara_1": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "regras_camara_2": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "ajustes": {
+      "options": [
+        "Sim",
+        "Não tenho ajustes a sugerir",
+        "Não tenho elementos para avaliar"
+      ]
+    },
+    "desafios": {
+      "type": "multiple",
+      "options": [
+        "Entender os critérios de avaliação",
+        "Reunir as informações solicitadas",
+        "Cumprir os prazos",
+        "Esclarecer dúvidas com a organização",
+        "Entender os resultados recebidos",
+        "Outro desafio",
+        "Não enfrentei dificuldades",
+        "Não sei avaliar"
+      ],
+      "max": 2,
+      "exclusive": [
+        "Não enfrentei dificuldades",
+        "Não sei avaliar"
+      ]
+    },
+    "desafio_detalhe": {
+      "type": "text"
+    },
+    "nps": {
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "Não sei avaliar"
+      ]
+    },
+    "prioridade": {
+      "type": "text"
+    }
+  },
+  "organizacao": {
+    "projeto_organizacao_1": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "projeto_organizacao_2": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "projeto_organizacao_3": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "positivos": {
+      "type": "text"
+    },
+    "regras_organizacao_1": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "regras_organizacao_2": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Não acompanhei / não se aplica"
+      ]
+    },
+    "ajustes": {
+      "options": [
+        "Sim",
+        "Não tenho ajustes a sugerir",
+        "Não tenho elementos para avaliar"
+      ]
+    },
+    "desafios": {
+      "type": "multiple",
+      "options": [
+        "Planejar e cumprir o cronograma",
+        "Distribuir as tarefas na equipe",
+        "Alinhar a aplicação dos critérios",
+        "Comunicar as etapas aos participantes",
+        "Consolidar e divulgar os resultados",
+        "Outro desafio",
+        "Não enfrentei dificuldades",
+        "Não sei avaliar"
+      ],
+      "max": 2,
+      "exclusive": [
+        "Não enfrentei dificuldades",
+        "Não sei avaliar"
+      ]
+    },
+    "desafio_detalhe": {
+      "type": "text"
+    },
+    "nps": {
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "Não sei avaliar"
+      ]
+    },
+    "prioridade": {
+      "type": "text"
+    }
+  },
+  "criteria": {
+    "camara": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7",
+      "1.8",
+      "1.9",
+      "1.10",
+      "1.11",
+      "1.12",
+      "1.13",
+      "1.14",
+      "1.15",
+      "1.16",
+      "1.17",
+      "1.18",
+      "1.19",
+      "1.20",
+      "1.21",
+      "1.22",
+      "1.23",
+      "1.24",
+      "1.25",
+      "1.26",
+      "1.27",
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.6",
+      "2.7",
+      "2.8",
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6",
+      "3.7",
+      "3.8",
+      "3.9"
+    ],
+    "gabinete": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7",
+      "1.8",
+      "1.9",
+      "1.10",
+      "1.11",
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.6",
+      "2.7",
+      "2.8",
+      "2.9",
+      "2.10",
+      "2.11",
+      "2.12",
+      "2.13",
+      "2.14",
+      "2.15",
+      "2.16",
+      "2.17",
+      "2.18",
+      "2.19",
+      "2.20",
+      "2.21"
+    ]
+  }
+}

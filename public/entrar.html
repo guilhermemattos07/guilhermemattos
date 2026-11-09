@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#173e64">
+  <title>Acesso ao painel · RCLM 2026</title>
+  <link rel="stylesheet" href="/formulario/style.css"><link rel="stylesheet" href="/entrar.css">
+  <script src="/entrar.js" defer></script>
+</head>
+<body>
+  <header class="header"><a href="/formulario/index.html"><img src="/formulario/assets/marca-rclm.png" width="250" alt="Reconhecimento Câmaras Legislativas Municipais"></a><a class="text-btn" href="/formulario/index.html">Ir para o formulário</a></header>
+  <main class="login-card">
+    <div class="eyebrow">ACESSO DA ORGANIZAÇÃO</div>
+    <h1>Entrar no painel</h1>
+    <p>Consulte as respostas e acompanhe as análises do projeto.</p>
+    <form id="login-form">
+      <label class="field-label" for="key">Chave de acesso</label>
+      <input id="key" type="password" name="password" autocomplete="current-password" required maxlength="128" spellcheck="false" autocapitalize="none" aria-describedby="key-help">
+      <p class="q-hint" id="key-help">Use a chave definida pela pessoa responsável pelo site.</p>
+      <button type="submit" class="primary" id="login-button">Entrar no painel →</button>
+      <p id="login-message" class="login-message" role="status" aria-live="polite"></p>
+    </form>
+    <details class="setup">
+      <summary>Sou responsável pelo site. Como configuro o primeiro acesso?</summary>
+      <ol>
+        <li>Gere uma chave abaixo e guarde-a em um gerenciador de senhas.</li>
+        <li>Na Cloudflare, abra este Worker e vá a <strong>Settings → Variables and Secrets → Add</strong>.</li>
+        <li>Escolha <strong>Secret</strong>, use o nome <strong>ADMIN_KEY</strong> e cole a chave como valor. Salve e publique a alteração.</li>
+        <li>Volte a esta página e entre com a chave. No painel, configure <strong>Privacidade e LGPD</strong> antes de abrir a coleta.</li>
+      </ol>
+      <p>A chave é criada apenas neste navegador. Gerá-la aqui não configura o acesso na Cloudflare.</p>
+      <button class="outline-btn" id="generate-key" type="button">Gerar chave de acesso</button>
+      <div id="generated-box" hidden>
+        <label class="field-label" for="generated-key">Sua nova chave — guarde antes de sair</label>
+        <textarea id="generated-key" readonly rows="3" spellcheck="false" autocomplete="off"></textarea>
+        <button class="outline-btn" id="copy-key" type="button">Copiar chave</button>
+        <p id="copy-message" class="q-hint" role="status"></p>
+      </div>
+      <p class="q-hint">Compartilhe a chave somente com a equipe autorizada. Para revogar o acesso, substitua ADMIN_KEY por uma nova chave. As sessões antigas deixam de funcionar.</p>
+    </details>
+  </main>
+  <footer class="site-footer"><div class="partner-logos"><a class="partner-logo esacao" href="https://es-acao.org.br/" target="_blank" rel="noopener noreferrer" aria-label="Espírito Santo em Ação — abre em nova aba"><img src="/formulario/assets/realizadores-transparente.png" alt="Espírito Santo em Ação"></a><a class="partner-logo transparencia" href="https://transparenciacapixaba.org.br/" target="_blank" rel="noopener noreferrer" aria-label="Transparência Capixaba — abre em nova aba"><img src="/formulario/assets/realizadores-transparente.png" alt="Transparência Capixaba"></a></div></footer>
+</body>
+</html>

@@ -1,0 +1,3 @@
+# Gere uma chave no primeiro acesso a /entrar.html.
+# Em produção, salve ADMIN_KEY como Secret na Cloudflare, nunca no GitHub.
+ADMIN_KEY=

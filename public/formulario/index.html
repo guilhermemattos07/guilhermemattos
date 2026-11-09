@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173e64">
+  <meta name="description" content="Formulário de feedback do Reconhecimento das Câmaras Legislativas Municipais 2026. Gabinetes, Câmaras e organização compartilham sua experiência para aprimorar futuras edições.">
+  <title>Feedback 2026 · Reconhecimento das Câmaras</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="questions.js" defer></script>
+  <script src="/privacy.js" defer></script>
+  <script src="/dialog.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o formulário</a>
+  <div class="preview-bar"><div><span class="status-dot"></span><strong>PRÉVIA PARA REVISÃO</strong><span>Você pode testar o formulário. Nenhuma resposta é enviada.</span></div><button id="about-btn" class="plain review-only">Sobre esta versão <span aria-hidden="true">↗</span></button></div>
+  <header class="header"><a href="#" id="home-link" aria-label="Voltar à primeira etapa"><img src="assets/marca-rclm.png" alt="Reconhecimento Câmaras Legislativas Municipais" width="280" height="90"></a><nav aria-label="Ferramentas"><details class="tools-menu"><summary>Menu</summary><div class="tools-menu-content"><button id="outline-btn" class="text-btn review-only">Roteiro completo</button><a class="outline-btn review-only" href="roteiro_feedback_2026.txt" download>Baixar roteiro <span aria-hidden="true">↓</span></a><a class="text-btn" href="/painel.html">Painel de respostas</a><button class="text-btn" data-privacy>Privacidade e LGPD</button></div></details></nav></header>
+  <div id="form-view">
+    <section class="hero"><div class="eyebrow">FEEDBACK · EDIÇÃO 2026</div><h1>Sua experiência faz a diferença.</h1><p>A edição de 2026 foi concluída. Conte o que funcionou e o que podemos melhorar.</p></section>
+    <div class="workspace"><aside class="sidebar">
+      <div class="sidebar-label">SEU PERCURSO</div>
+      <ol id="steps" aria-label="Etapas do formulário" role="list"></ol>
+    </aside>
+      <main id="main" tabindex="-1"><div class="step-top"><span id="step-counter"></span><span id="profile-badge"></span></div><div class="progress-track"><div id="progress"></div></div><form id="feedback" novalidate><div id="step-content"></div><div id="form-alert" role="alert"></div><div class="form-footer"><button type="button" id="back" class="text-btn">← Voltar</button><span id="footer-note">Você pode pular as perguntas opcionais.</span><button type="button" id="next" class="primary">Continuar <span aria-hidden="true">→</span></button></div></form></main>
+    </div>
+  </div>
+  <section id="outline-view" hidden><div class="outline-top"><div class="eyebrow">ROTEIRO · REVISÃO DO CONTEÚDO</div><h1>O formulário, por inteiro.</h1><p>Abaixo estão as perguntas comuns e os três caminhos específicos. No preenchimento, cada pessoa vê somente o caminho do perfil escolhido.</p><div class="outline-actions"><button class="primary" id="return-form">Voltar à prévia</button><button class="outline-btn" id="print-btn">Imprimir roteiro / salvar PDF</button></div></div><div id="outline-content"></div></section>
+  <footer class="site-footer"><div class="partner-logos"><a class="partner-logo esacao" href="https://es-acao.org.br/" target="_blank" rel="noopener noreferrer" aria-label="Espírito Santo em Ação — abre em nova aba"><img src="assets/realizadores-transparente.png" alt="Espírito Santo em Ação"></a><a class="partner-logo transparencia" href="https://transparenciacapixaba.org.br/" target="_blank" rel="noopener noreferrer" aria-label="Transparência Capixaba — abre em nova aba"><img src="assets/realizadores-transparente.png" alt="Transparência Capixaba"></a></div><div class="footer-info"><strong>Reconhecimento das Câmaras Legislativas Municipais 2026</strong><span>Formulário de feedback</span><button class="text-btn" data-privacy>Privacidade e LGPD</button><button class="text-btn" data-withdraw>Excluir minha resposta</button></div></footer>
+  <dialog id="about-dialog" aria-labelledby="about-title"><button class="dialog-close" aria-label="Fechar">×</button><h2 id="about-title">Sobre o formulário</h2><p>Uma escuta sobre os pontos positivos, os desafios e as melhorias para futuras edições. O feedback não altera os resultados de 2026.</p><p>As perguntas seguem as duas notas metodológicas de 2026 e a apresentação fornecida: 44 critérios institucionais e 32 parlamentares.</p><p>O NPS é calculado a partir da pergunta de recomendação: percentual de notas 9–10 menos percentual de notas 0–6. As notas 7–8 são neutras. Respostas em branco e “não sei avaliar” ficam fora do cálculo.</p><button class="primary dialog-ok">Entendi</button></dialog>
+  <dialog id="privacy-dialog" aria-labelledby="privacy-title"><button class="dialog-close" aria-label="Fechar privacidade">×</button><h2 id="privacy-title">Privacidade e LGPD</h2><div id="privacy-content"></div></dialog>
+  <dialog id="withdraw-dialog" aria-labelledby="withdraw-title"><button class="dialog-close" aria-label="Fechar exclusão">×</button><h2 id="withdraw-title">Excluir minha resposta</h2><p>Use o comprovante recebido ao enviar. A exclusão remove sua resposta deste formulário e do painel e não pode ser desfeita.</p><label class="field-label" for="withdraw-id">Número do comprovante</label><input id="withdraw-id" type="text" maxlength="36"><label class="field-label" for="withdraw-token">Código de exclusão</label><input id="withdraw-token" type="password" maxlength="64" autocomplete="off"><button id="withdraw-submit" class="primary">Confirmar exclusão</button><p id="withdraw-message" role="status"></p><p>Para acesso, correção ou outros pedidos, consulte o contato em <button class="neutral-link" data-privacy>Privacidade e LGPD</button>.</p></dialog>
+  <dialog id="criteria-dialog"><button class="dialog-close" aria-label="Fechar catálogo">×</button><div class="eyebrow">CONSULTA OPCIONAL</div><h2>Critérios da metodologia de 2026</h2><p>Use o catálogo para localizar o item a que se refere sua sugestão. Os códigos se repetem entre os dois diagnósticos; confira o público.</p><label class="field-label" for="criteria-search">Buscar por código ou palavra</label><input type="search" id="criteria-search" placeholder="Ex.: ouvidoria, emendas, 1.7"><div class="catalog-tabs" role="group" aria-label="Diagnóstico"><button data-catalog="camara" class="selected" aria-pressed="true">Casa Legislativa</button><button data-catalog="gabinete" aria-pressed="false">Gabinete</button></div><div id="catalog-list"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
